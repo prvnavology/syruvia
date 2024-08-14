@@ -435,5 +435,8 @@ background-color: #fff;
     color: #cd090b;
     border-color: #cd090b;
 }
+.copyright{
+    border-top: 0.5px solid #c9c9c9;
+}
 
 /* Footer CSS End */
