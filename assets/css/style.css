@@ -41,6 +41,7 @@ ul li {
     margin-bottom: 3px;
     margin: 0;
 }
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -150,7 +151,7 @@ img {
 
 .menu-icon {
     display: none;
-    color: #ff009c;
+    color: #b85423;
     width: 30px;
     text-align: right;
     cursor: pointer;
@@ -209,26 +210,32 @@ img {
     letter-spacing: 0.6px;
     font-weight: 700;
 }
-.favorite-cards-text p{
+
+.favorite-cards-text p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 1px;
     font-weight: 400;
 }
-.favorite-cards-text a{
+
+.btn {
     font-size: 15px;
     line-height: 18px;
     font-weight: 700;
-    background: #cd090b;
     border-radius: 8px;
-    color: #fff;
-    padding:15px 60px ;
+    padding: 15px 60px;
     margin: 15px auto;
 }
+
+.btn-red {
+    background: #cd090b;
+    color: #fff;
+}
+
 /* Banner Slider CSS End */
 
 /* Favorite Cards Section CSS Start */
-.favorite-brands-wrapper h2{
+.favorite-brands-wrapper h2 {
     font-size: 28px;
     line-height: 37px;
     letter-spacing: 0.6px;
@@ -236,15 +243,15 @@ img {
 }
 
 
-.syrup-collection-section{
+.syrup-collection-section {
     background-image: url("../images/syrup-collection-bg.png");
     background-repeat: no-repeat;
-    background-size:cover ;
-     padding: 100px 0;
+    background-size: cover;
+    padding: 100px 0;
 }
 
 .syrup-collection-wrapper h2 {
-      color: #fff;
+    color: #fff;
     font-size: 48px;
     line-height: 63px;
     letter-spacing: 0.6px;
@@ -252,23 +259,27 @@ img {
     max-width: 370px;
     margin-left: auto;
 }
+
 .syrup-collection-bottles {
     height: 100%;
     width: 100%;
 }
-.syrup-collection-bottles img{
+
+.syrup-collection-bottles img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 .syrup-collection-bottle-wrapper {
     margin-top: 100px;
 }
 
 
-.premium-quality-section{
+.premium-quality-section {
     padding: 100px 0;
 }
+
 .premium-quality-content {
     background-image: url("../images/premium-quality-card-bg.png");
     background-repeat: no-repeat;
@@ -277,14 +288,15 @@ img {
     width: 100%;
     overflow: hidden;
 }
-.premium-quality-content h3{
+
+.premium-quality-content h3 {
     font-size: 28px;
     letter-spacing: 0.6px;
     font-weight: 700;
     color: #FFF;
 }
 
-.premium-quality-content p{
+.premium-quality-content p {
     color: #fff;
     font-size: 16px;
     line-height: 24px;
@@ -294,14 +306,57 @@ img {
 .premium-quality-section .slick-dots li.slick-active button:before {
     opacity: 1;
     color: #1b8853;
-     border-radius: 50%;
+    border-radius: 50%;
 }
+
 .premium-quality-section .slick-dots li button {
     font-size: 30px;
     border-color: rgba(27, 136, 83, 0.57);
     color: #fff;
 }
+
 .premium-quality-section .slick-dots li button:before {
     font-size: 50px;
     color: #1b8853;
+}
+
+
+
+.syruvia-history-section {
+    background-image: url("../images/syruvia-history-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:100px 0;
+}
+
+.syruvia-history-wrapper h2 {
+    font-size: 28px;
+    line-height: 71px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.syruvia-history-image {
+    max-width: 700px;
+    margin: 80px auto;
+}
+
+.syruvia-history-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.syruvia-history-text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.btn-white {
+    background: #fff;
+    color: #000;
 }
