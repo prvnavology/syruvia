@@ -214,7 +214,15 @@ img {
     opacity: 1;
     color: red;
 }
+.slick-dots {
+    bottom: -70px;
+}
 
+
+
+section.favorite-brands {
+    margin: 130px auto 80px auto;
+}
 .favorite-cards-text h3 {
     font-size: 13px;
     line-height: 17px;
