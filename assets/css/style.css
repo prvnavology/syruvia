@@ -123,9 +123,6 @@ img {
     font-weight: 500;
     position: relative;
 }
-
-
-
 .main-navbar ul li a:after {
     display: block;
     border-bottom: solid 1px #b85423;
@@ -410,6 +407,7 @@ background-color: #fff;
     color: #000;
 }
 
+
 .footer-input {
     border-radius: 8px;
     border: 0.5px solid #c9c9c9;
@@ -430,6 +428,12 @@ background-color: #fff;
     color: #fff;
     padding: 12px 40px;
     border-radius: 8px;
+
+}
+.footer-submit-btn:hover{
+    background-color: #fff;
+    color: #cd090b;
+    border-color: #cd090b;
 }
 
 /* Footer CSS End */
