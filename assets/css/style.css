@@ -230,6 +230,12 @@ img {
 .btn-red {
     background: #cd090b;
     color: #fff;
+    border: 1px solid #cd090b;
+}
+.btn-red:hover{
+    color: #cd090b;
+    background-color: #fff;
+    border-color: #cd090b;
 }
 
 /* Banner Slider CSS End */
@@ -275,7 +281,7 @@ img {
     margin-top: 100px;
 }
 
-
+/* Premium Quality Section CSS Start */
 .premium-quality-section {
     padding: 100px 0;
 }
@@ -320,14 +326,16 @@ img {
     color: #1b8853;
 }
 
+/* Premium Quality Section CSS End */
 
+/* Syruvia History CSS Start */
 
 .syruvia-history-section {
     background-image: url("../images/syruvia-history-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    padding:100px 0;
+    padding: 100px 0;
     margin: 50px 0 70px 0;
 }
 
@@ -357,7 +365,71 @@ img {
     font-weight: 400;
     margin-bottom: 15px;
 }
+
 .btn-white {
     background: #fff;
     color: #000;
+    border: 1px solid transparent;
 }
+.btn-white:hover {
+background-color: #fff;
+    color:#cd090b;
+    border: 1px solid #fff;
+}
+
+/* Syruvia History CSS End */
+
+
+/* Footer CSS Start */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-pages,
+.footer-follow-us,
+.footer-contact-us {
+    width: 22%;
+}
+
+.footer-stay {
+    width: 34%;
+}
+
+.footer-items h3 {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.footer-items ul li a {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.footer-input {
+    border-radius: 8px;
+    border: 0.5px solid #c9c9c9;
+    font-size: 11px;
+    line-height:1;
+    font-weight: 400;
+    padding: 12px 20px;
+    width: 65%;
+    outline: none;
+}
+
+.footer-submit-btn {
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 700;
+    border: 0.5px solid transparent;
+    background-color: #EA090E;
+    color: #fff;
+    padding: 12px 40px;
+    border-radius: 8px;
+}
+
+/* Footer CSS End */
