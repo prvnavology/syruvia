@@ -160,7 +160,8 @@ img {
 }
 
 .header-icons-wrapper {
-    width: 72%;
+    width: 100%;
+    margin-bottom: -50px;
 }
 
 .header-icons {
@@ -169,11 +170,12 @@ img {
     margin: 0 3px;
 }
 
+/*
 .nav-r1 {
     width: 100%;
     text-align: center;
     margin-top: -60px;
-}
+} */
 
 
 /* Header CSS End */
@@ -194,34 +196,67 @@ img {
 /* Offer Text CSS Start */
 
 /* Banner Slider CSS Start */
-.slick-dots li.slick-active button:before {
+.banner-slider .slick-dots {
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.banner-slider .slick-dots li.slick-active button:before {
     opacity: 1;
     color: #EA090E;
 }
 
-.slick-dots li button:before {
+.banner-slider .slick-dots li button:before {
     font-size: 50px;
     color: #EA090E;
 }
 
-.slick-next:before {
+.banner-slider .slick-next:before {
     content: '>';
 }
 
-.slick-prev:before {
+.banner-slider .slick-prev:before {
     content: '<';
 }
+.banner-slider .slick-prev,
+.banner-slider .slick-next {
+    bottom: -70px;
+    top: auto;
+}
 
-.slick-prev:before,
-.slick-next:before {
+.banner-slider .slick-prev:before,
+.banner-slider .slick-next:after     {
     font-size: 25px;
     opacity: 1;
     color: red;
 }
 
-.slick-dots {
+.banner-slider .slick-dots {
     bottom: -70px;
 }
+
+.banner-slider .slick-next {
+    right: calc(50% - 80px);
+}
+
+.banner-slider .slick-next {
+    right: calc(50% - 80px);
+}
+
+
+.banner-slider .slick-next {
+    right: 10px;
+}
+.banner-slider .slick-prev:before,
+.banner-slider .slick-next:before {
+    color: #cd090b;
+    font-size: 25px;
+}
+.banner-slider .slick-next {
+    right: 10px;
+}
+
 
 
 
@@ -503,35 +538,9 @@ section.favorite-brands {
 
 
 
-.banner-slider .slick-dots {
-    position: relative;
-    margin-top: 40px;
-    /* Add space for arrows */
-}
-
-.banner-slider .slick-prev,
-
-.banner-slider .slick-next {
-    top: auto;
-    /* Remove default vertical centering */
-    bottom: -30px;
-    /* Position arrows at bottom */
-    transform: none;
-    /* Remove vertical centering adjustment */
-    z-index: 10;
-}
-
-.banner-slider .slick-next {
-    right: 10px;
-    /* Position right arrow */
-}
 
 
-.banner-slider .slick-prev:before,
 
-.banner-slider .slick-next:before {
-    color: black;
-    /* Change arrow color if needed */
-    font-size: 20px;
-    /* Adjust arrow size */
-}
+
+
+
