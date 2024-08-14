@@ -206,11 +206,11 @@ img {
     opacity: 1;
     color: #EA090E;
 }
-
 .banner-slider .slick-dots li button:before {
     font-size: 50px;
     color: #EA090E;
 }
+
 
 .banner-slider .slick-next:before {
     content: '>';
@@ -226,14 +226,15 @@ img {
     top: auto;
 }
 
-.banner-slider .slick-prev:before,
-.banner-slider .slick-next:after {
+.banner-slider .slick-next::before {
     font-size: 25px;
     opacity: 1;
     color: red;
 }
-
-
+.banner-slider .slick-prev:before {
+     color: red;
+     opacity: 1;
+   }
 .banner-slider .slick-next {
     right: calc(50% - 80px);
 }
@@ -243,19 +244,8 @@ img {
 }
 
 
-.banner-slider .slick-next {
-    right: 10px;
-}
 
-.banner-slider .slick-prev:before,
-.banner-slider .slick-next:before {
-    color: #cd090b;
-    font-size: 25px;
-}
 
-.banner-slider .slick-next {
-    right: 10px;
-}
 
 
 
