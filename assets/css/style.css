@@ -124,6 +124,7 @@ img {
     font-weight: 500;
     position: relative;
 }
+
 .main-navbar ul li a:after {
     display: block;
     border-bottom: solid 1px #b85423;
@@ -157,14 +158,17 @@ img {
     font-size: 25px;
     z-index: 60;
 }
-.header-icons-wrapper{
+
+.header-icons-wrapper {
     width: 72%;
 }
-.header-icons{
+
+.header-icons {
     color: #b44d1a;
     display: inline-flex !important;
     margin: 0 3px;
 }
+
 .nav-r1 {
     width: 100%;
     text-align: center;
@@ -214,6 +218,7 @@ img {
     opacity: 1;
     color: red;
 }
+
 .slick-dots {
     bottom: -70px;
 }
@@ -223,6 +228,7 @@ img {
 section.favorite-brands {
     margin: 130px auto 80px auto;
 }
+
 .favorite-cards-text h3 {
     font-size: 13px;
     line-height: 17px;
@@ -251,7 +257,8 @@ section.favorite-brands {
     color: #fff;
     border: 1px solid #cd090b;
 }
-.btn-red:hover{
+
+.btn-red:hover {
     color: #cd090b;
     background-color: #fff;
     border-color: #cd090b;
@@ -260,11 +267,39 @@ section.favorite-brands {
 /* Banner Slider CSS End */
 
 /* Favorite Cards Section CSS Start */
-.favorite-brands-wrapper h2 {
+.odd-heading {
     font-size: 28px;
     line-height: 37px;
     letter-spacing: 0.6px;
     font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.odd-heading::before {
+    display: block;
+    content: " ";
+    border: 0.5px solid #cb5959;
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0 10px;
+}
+
+.odd-heading::after {
+    display: block;
+    content: " ";
+    border: 0.5px solid #cb5959;
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
 
@@ -367,7 +402,7 @@ section.favorite-brands {
 }
 
 .syruvia-history-image {
-    max-width: 62   0px;
+    max-width: 620px;
     margin: 80px auto;
 }
 
@@ -390,9 +425,10 @@ section.favorite-brands {
     color: #000;
     border: 1px solid transparent;
 }
+
 .btn-white:hover {
-background-color: #fff;
-    color:#cd090b;
+    background-color: #fff;
+    color: #cd090b;
     border: 1px solid #fff;
 }
 
@@ -434,7 +470,7 @@ background-color: #fff;
     border-radius: 8px;
     border: 0.5px solid #c9c9c9;
     font-size: 11px;
-    line-height:1;
+    line-height: 1;
     font-weight: 400;
     padding: 12px 20px;
     width: 65%;
@@ -452,13 +488,50 @@ background-color: #fff;
     border-radius: 8px;
 
 }
-.footer-submit-btn:hover{
+
+.footer-submit-btn:hover {
     background-color: #fff;
     color: #cd090b;
     border-color: #cd090b;
 }
-.copyright{
+
+.copyright {
     border-top: 0.5px solid #c9c9c9;
 }
 
 /* Footer CSS End */
+
+
+
+.banner-slider .slick-dots {
+    position: relative;
+    margin-top: 40px;
+    /* Add space for arrows */
+}
+
+.banner-slider .slick-prev,
+
+.banner-slider .slick-next {
+    top: auto;
+    /* Remove default vertical centering */
+    bottom: -30px;
+    /* Position arrows at bottom */
+    transform: none;
+    /* Remove vertical centering adjustment */
+    z-index: 10;
+}
+
+.banner-slider .slick-next {
+    right: 10px;
+    /* Position right arrow */
+}
+
+
+.banner-slider .slick-prev:before,
+
+.banner-slider .slick-next:before {
+    color: black;
+    /* Change arrow color if needed */
+    font-size: 20px;
+    /* Adjust arrow size */
+}
