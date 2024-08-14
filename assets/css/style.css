@@ -112,6 +112,7 @@ img {
     gap: 20px;
 }
 
+
 .main-navbar ul li a {
     display: inline-block;
     padding: 10px;
@@ -155,6 +156,19 @@ img {
     margin: auto 0;
     font-size: 25px;
     z-index: 60;
+}
+.header-icons-wrapper{
+    width: 72%;
+}
+.header-icons{
+    color: #b44d1a;
+    display: inline-flex !important;
+    margin: 0 3px;
+}
+.nav-r1 {
+    width: 100%;
+    text-align: center;
+    margin-top: -60px;
 }
 
 
