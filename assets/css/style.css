@@ -198,7 +198,7 @@ img {
 /* Banner Slider CSS Start */
 .banner-slider .slick-dots {
     position: relative;
-    margin-top: 40px;
+    margin-top: 30px;
 
 }
 
@@ -219,22 +219,20 @@ img {
 .banner-slider .slick-prev:before {
     content: '<';
 }
+
 .banner-slider .slick-prev,
 .banner-slider .slick-next {
-    bottom: -70px;
+    bottom: -30px;
     top: auto;
 }
 
 .banner-slider .slick-prev:before,
-.banner-slider .slick-next:after     {
+.banner-slider .slick-next:after {
     font-size: 25px;
     opacity: 1;
     color: red;
 }
 
-.banner-slider .slick-dots {
-    bottom: -70px;
-}
 
 .banner-slider .slick-next {
     right: calc(50% - 80px);
@@ -248,11 +246,13 @@ img {
 .banner-slider .slick-next {
     right: 10px;
 }
+
 .banner-slider .slick-prev:before,
 .banner-slider .slick-next:before {
     color: #cd090b;
     font-size: 25px;
 }
+
 .banner-slider .slick-next {
     right: 10px;
 }
@@ -307,34 +307,31 @@ section.favorite-brands {
     line-height: 37px;
     letter-spacing: 0.6px;
     font-weight: 700;
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-
+    gap: 20px;
 }
 
 .odd-heading::before {
     display: block;
     content: " ";
     border: 0.5px solid #cb5959;
-    position: absolute;
-    width: 200px;
+    width: 150px;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    margin: 0 10px;
+
 }
 
 .odd-heading::after {
     display: block;
     content: " ";
     border: 0.5px solid #cb5959;
-    position: absolute;
-    width: 200px;
+    width: 150px;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);
 }
 
 
@@ -535,12 +532,3 @@ section.favorite-brands {
 }
 
 /* Footer CSS End */
-
-
-
-
-
-
-
-
-
