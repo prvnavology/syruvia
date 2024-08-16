@@ -615,7 +615,7 @@ section.favorite-brands {
     background: #d97b56;
     padding: 10px;
     border-radius: 0px;
-    margin-left: -5px;
+    margin-left:-5px;
     line-height: 1;
     color: #000;
     font-size: 11px;
@@ -692,7 +692,7 @@ section.favorite-brands {
     font-family: "Jost", sans-serif;
 }
 
-input[type="text"]::placeholder {
+.product input[type="text"]::placeholder {
     text-align: center;
     color: #c9c9c9;
     font-family: "Jost", sans-serif;
