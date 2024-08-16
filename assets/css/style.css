@@ -676,7 +676,7 @@ section.favorite-brands {
 
 .price-wrapper {
     display: inline-flex;
-    gap: 30px;
+    gap: 10px;
 }
 
 .price-wrapper .price-box {
