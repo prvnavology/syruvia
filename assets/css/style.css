@@ -216,7 +216,8 @@ button#slider-toggle {
 button#slider-toggle::before {
     border-left: 1px solid #000;
     content: "";
-    display: block;
+    display: inline-flex;
+    gap: 20px;
     position: absolute;
     height: 25px;
 }
