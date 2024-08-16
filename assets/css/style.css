@@ -608,6 +608,7 @@ section.favorite-brands {
 }
 .product .footer-input::placeholder{
     text-align: left;
+    color: #000;
 }
 
 .product .footer-submit-btn {
