@@ -93,13 +93,7 @@ img {
     z-index: 9999;
 }
 
-.fixed-header {
-    background-color: #fff;
-}
 
-.fixed-header .main-navbar ul li a {
-    color: #000;
-}
 
 .main-navbar ul {
     display: flex;
@@ -175,7 +169,13 @@ img {
     display: inline-flex !important;
     margin: 0 3px;
 }
+.fixed-header {
+    background-color: #fff;
+}
 
+.fixed-header .main-navbar ul li a:not(.active) {
+    color: #000;
+}
 
 
 
