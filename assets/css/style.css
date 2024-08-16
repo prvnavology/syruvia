@@ -880,5 +880,6 @@ section.favorite-brands {
     }
     .page-item .page-link.active {
 background-color: #d97955;
+color: #fff;
     }
 /* Prodcut Page CSS End */
