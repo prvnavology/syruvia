@@ -875,4 +875,7 @@ input[type="text"]::placeholder {
     .product-pages-cards-section .row .col-md-4:nth-child(6) .product-pages-cards {
         margin-bottom: 0;
     }
+    .page-item .page-link.active {
+background-color: #d97955;
+    }
 /* Prodcut Page CSS End */
