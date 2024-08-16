@@ -602,10 +602,12 @@ section.favorite-brands {
     border-radius: 0px;
     border: transparent;
     border-bottom: 0.5px solid #b85423;
-    font-size: 11px;
-    padding: 10px 20px;
+    padding: 9px;
     width: 60%;
-
+    font-size: 16px;
+}
+.product .footer-input::placeholder{
+    text-align: left;
 }
 
 .product .footer-submit-btn {
