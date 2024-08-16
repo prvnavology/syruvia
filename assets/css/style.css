@@ -223,6 +223,9 @@ button#slider-toggle::before {
     position: absolute;
     height: 25px;
 }
+button#slider-toggle i::before {
+    margin-left: 25px;
+}
 
 
 .banner-slider .slick-dots li.slick-active button:before {
