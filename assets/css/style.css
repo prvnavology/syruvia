@@ -716,24 +716,26 @@ input[type="text"]::placeholder {
 
 .product-intro-image {
     background-image: url("../images/product-page1-intro-image.png");
-    background-position: center;
+    background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
 }
 .product-intro-image img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
-.product-intro-image-heading h3{
-    position:absolute;
-    color: #fff;
-    font-size: 29.666667938232422px;
-    line-height: 38.94px;
+.product-intro-image h3 {
+    font-size: 30px;
+    line-height: 39px;
     letter-spacing: 0.37px;
     font-weight: 700;
-    
+    color: #fff;
+    padding-top: 30px;
+    max-width: 400px;
+    margin-left: 25px;
+    padding-top:50px
 }
 
 
@@ -759,10 +761,6 @@ input[type="text"]::placeholder {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-}
-
-.product-intro-image h3 {
- color:#fff;
 }
 
 .sort-product {
