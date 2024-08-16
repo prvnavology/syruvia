@@ -650,15 +650,19 @@ section.favorite-brands {
     color: #fff;
 }
 
-.products-left {
+.product-left {
     border: 1px solid #efefef;
-    padding: 15px;
+    padding: 50px 15px;
 }
 
 .product-left-sections {
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
     padding: 40px 0;
+}
+.product-left-sections:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 .product .footer-wrapper-g2 img {
