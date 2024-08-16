@@ -16,7 +16,7 @@
     <title>Products</title>
 </head>
 
-<body>
+<body class="product">
     <!-- Header Start -->
     <header class="site-header">
         <div class="container">
@@ -63,7 +63,7 @@
     <!-- Banner Slider Section CSS Start -->
     <div class="banner-slider-section">
         <div class="banner-slider-wrapper">
-            <div class="banner-slider">
+            <div class=" product-banner-slider">
                 <div>
                     <div class="banner-slider-slides">
                         <img src="./assets/images/home-banner-image.png" alt="slider-image">
@@ -80,14 +80,156 @@
                     </div>
                 </div>
             </div>
-            <button id='slider-toggle'><i class="fa-solid fa-pause"></i></button>
         </div>
     </div>
     <!-- Banner Slider Section CSS End -->
 
+    <!-- Product Page Content Section Start -->
+    <section class="product-pages-content-section py-5">
+        <div class="container">
+            <div class="product-pages-content-wrapper">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="product-left">
+
+                            <div class="product-left-sections">
+                                <h3>Availability</h3>
+                                <div class="form-group">
+                                    <input type="checkbox" id="in-stock" name="in-stock">
+                                    <label for="in-stock">In stock (31)</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="out-of-stock" name="out-of-stock">
+                                    <label for="out-of-stock">Out of stock (2)</label>
+                                </div>
+
+                            </div>
+
+                            <div class="product-left-sections">
+                                <h3>Price</h3>
+                                <div class="price-wrapper">
+                                    <span>
+                                        $
+                                        <input class="price-box" type="text" id="min-price" name="min-price"
+                                            placeholder="0">
+                                        <label for="min-price">From</label>
+                                    </span>
+
+                                    <span>
+                                        $
+                                        <input class="price-box" type="text" id="max-price" name="max-price"
+                                            placeholder="700.00">
+                                        <label for="max-price">To</label>
+                                    </span>
+
+
+                                </div>
+                                <div class="filter-btn-cont text-center">
+                                    <a href="" class="product-filter-btn">Filter</a>
+                                </div>
+
+                            </div>
+
+                            <div class="product-left-sections">
+                                <h3>Category</h3>
+                                <div class="form-group">
+                                    <input type="checkbox" id="best-sellers" name="best-sellers">
+                                    <label for="best-sellers">Best Sellers (10)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="cocktails" name="cocktails">
+                                    <label for="cocktails">Cocktails(3)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="coffee" name="coffee">
+                                    <label for="coffee">Coffee(28)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="fruit" name="fruit">
+                                    <label for="fruit">Fruit(2)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="new-flavors" name="new-flavors">
+                                    <label for="new-flavors">New Flavors(4)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="shakable-toppings" name="shakable-toppings">
+                                    <label for="shakable-toppings">Shakable Toppings(2)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="smoothies-shakes" name="smoothies-shakes">
+                                    <label for="smoothies-shakes">Smoothies And Shakes(5)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="spring" name="spring">
+                                    <label for="spring">Spring(3)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="sugar-free" name="sugar-free">
+                                    <label for="sugar-free">Sugar Free(8)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="tea" name="tea">
+                                    <label for="tea">Tea(5)</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="checkbox" id="tranding-flavors" name="tranding-flavors">
+                                    <label for="tranding-flavors">Trending Flavors(6)</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="product-right">
+
+                            <div class="product-right-sections">
+                                <div class="product-intro-image">
+                                    <h3>Holiday Syrups Collection</h3>
+                                </div>
+                            </div>
+
+                            <div class="product-right-sections">
+                                <div class="results-sort-section">
+
+                                    <div class="showing-results">
+                                        <p> <i class="fa-solid fa-list showing-result"></i> Showing 1 of 32 results</p>
+                                    </div>
+
+                                    <div class="sort-order-by">
+                                        <span>Sort by</span> <select name="sort-product" id="sort-product"
+                                            class="sort-product">
+                                            <option value="alphabatically">Alphabatically A-Z</option>
+                                            <option value="mostrecent">Most Recent</option>
+                                            <option value="hightolow">High to Low</option>
+                                            <option value="lowtohigh">Low to High</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
+    <!-- Product Page Content Section End-->
 
 
 
@@ -126,8 +268,14 @@
                 <div class="footer-items footer-stay">
                     <h3>STAY IN THE KNOW</h3>
                     <div class="footer-input-wrapper">
-                        <input type="text" placeholder="Enter your email address" class="footer-input">
-                        <input type="submit" class="footer-submit-btn">
+                        <div class="footer-wrapper-g1">
+                            <input type="text" placeholder="Email" class="footer-input">
+                            <a href="" class="footer-submit-btn"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="footer-wrapper-g2">
+                            <a href="" class="follow-on-shop"><i class="fa-solid fa-heart footer-heart"></i>Follow on
+                                <img src="./assets/images/shop-image.png" alt="bottom-shop"> </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -137,17 +285,11 @@
     <!-- Footer End -->
 
 
-    <!--     Copyright Section Start -->
-    <div class="copyright text-center py-4">
-        <p>Copyright © 2024</p>
-    </div>
-    <!--     Copyright Section End -->
-
 
     <script src="./assets/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/index.js"></script>
 

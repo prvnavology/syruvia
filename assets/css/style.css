@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* Global CSS Start */
 
@@ -304,7 +306,6 @@ section.favorite-brands {
         linear-gradient(180deg,
             rgba(215, 106, 82, 1) 1.9999999552965164%,
             rgba(220, 145, 91, 1) 100%)
-
 }
 
 .btn-red:hover {
@@ -355,8 +356,9 @@ section.favorite-brands {
     background-size: cover;
     padding: 100px 0;
 }
-.index1  .syrup-collection-section{
-    background-image: url("../images/syrup-collection1-bg.png");  
+
+.index1 .syrup-collection-section {
+    background-image: url("../images/syrup-collection1-bg.png");
 }
 
 .syrup-collection-wrapper h2 {
@@ -441,7 +443,8 @@ section.favorite-brands {
     padding: 100px 0;
     margin: 50px 0 70px 0;
 }
-.index1 .syruvia-history-section{
+
+.index1 .syruvia-history-section {
     background-image: url("../images/syruvian-history1-bg.png");
 }
 
@@ -488,6 +491,7 @@ section.favorite-brands {
 
 
 /* Footer CSS Start */
+
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -508,6 +512,7 @@ section.favorite-brands {
     font-size: 15px;
     line-height: 18px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .footer-items ul li a {
@@ -520,7 +525,7 @@ section.favorite-brands {
 
 .footer-input {
     border-radius: 8px;
-    border: 0.5px solid #c9c9c9;
+    border: 1px solid #c9c9c9;
     font-size: 11px;
     line-height: 1;
     font-weight: 400;
@@ -539,7 +544,8 @@ section.favorite-brands {
     padding: 12px 40px;
     border-radius: 8px;
 }
-.index1 .footer-submit-btn{
+
+.index1 .footer-submit-btn {
     background-color: #b85423;
 }
 
@@ -560,5 +566,197 @@ section.favorite-brands {
 
 
 
+.product .footer {
+    background: linear-gradient(180deg,
+            rgba(214, 102, 81, 1) 0%,
+            rgba(220, 145, 91, 1) 100%);
+    color: #fff;
+}
 
+
+.product .footer-items ul li a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.product .footer-stay {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 60px 20px 20px;
+
+}
+
+.product .footer-stay h3 {
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    max-width: 200px;
+}
+
+.product .footer-input {
+    border-radius: 0px;
+    border: transparent;
+    border-bottom: 0.5px solid #b85423;
+    font-size: 11px;
+    padding: 10px 20px;
+    width: 60%;
+
+}
+
+.product .footer-submit-btn {
+    background: #d97b56;
+    padding: 10px;
+    border-radius: 0px;
+    margin-left: -5px;
+    line-height: 1;
+    color: #000;
+    font-size: 11px;
+}
+
+.footer-heart {
+    color: #FFF;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.product .footer-input-wrapper {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.product .footer-wrapper-g1,
+.product .footer-wrapper-g2 {
+    width: 50%;
+}
+
+.product .footer-wrapper-g2 {
+    background: #5433eb;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.follow-on-shop {
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+}
+
+.products-left {
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+
+.product-left-sections {
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 40px 0;
+}
+
+.product .footer-wrapper-g2 img {
+    max-width: 35px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.price-wrapper {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.price-wrapper .price-box {
+    width: 50%;
+    padding: 5px;
+    outline: none;
+    border: 0.5px solid #efefef;
+    font-size: 14px;
+}
+
+.product label {
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+    color: #c9c9c9;
+    font-family: "Jost", sans-serif;
+}
+
+.filter-btn-cont {
+    width: 100%;
+}
+
+.product-filter-btn {
+    background: linear-gradient(180deg, rgba(215, 106, 82, 1) 1.9999999552965164%, rgba(220, 145, 91, 1) 100%);
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin: 20px 0;
+    padding: 10px 40px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+
+.product-intro-image{
+    background-image: url("../images/product-page1-intro-image.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 30px;
+}
+
+
+
+.showing-result{
+    color: #898888;
+
+    margin-right: 15px;
+    font-size: 25px;
+}
+.showing-results p {
+    display: flex;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+}
+.results-sort-section{
+    border: 1px solid #ebebeb;
+    display: inline-flex;
+    padding: 15px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-intro-image h3 {
+    color: #fff;
+    font-size: 29.666667938232422px;
+    line-height: 38.94px;
+    letter-spacing: 0.37px;
+    font-weight: 700;
+}
+.sort-product{
+    border: 1px solid #ebebeb;
+    outline: none;
+    padding: 10px 15px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    border-radius: 0;
+    transition: 0.5s all ease-in-out;
+}
 /* Prodcut Page CSS End */

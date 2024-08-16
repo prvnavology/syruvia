@@ -13,7 +13,7 @@
     arrows: true,
       infinite: true,
     autoplay:true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     speed: 300,
     slidesToShow: 1,
     adaptiveHeight: false
@@ -39,4 +39,16 @@ $(this).html('<i class="fa-solid fa-pause"></i>')
     arrows: false,
     autoplaySpeed: 2000
   });
+
+  $(".product-banner-slider").slick({
+    dots: false,
+    fade: false,
+    pauseOnHover: false,
+    arrows: false,
+      infinite: true,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    slidesToShow: 1
+});
+
   
