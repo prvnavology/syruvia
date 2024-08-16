@@ -5,33 +5,38 @@
       header.toggleClass("fixed-header", $(window).scrollTop() > 0);
     });
   });
-  // Header Scroll JS End
 
+  $(".banner-slider").slick({
+    dots: true,
+    fade: false,
+    pauseOnHover: false,
+    arrows: true,
+      infinite: true,
+    autoplay:true,
+    autoplaySpeed: 1000,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: false
+});
 
-//   Banner Slider JS Start
-$('.banner-slider').slick({
+$('#slider-toggle').click( function() {
+if ($(this).html() == '<i class="fa-solid fa-pause"></i>'){
+$('.banner-slider').slick('slickPause')
+$(this).html('<i class="fa-solid fa-play"></i>') 
+} else {
+$('.banner-slider').slick('slickPlay')  
+$(this).html('<i class="fa-solid fa-pause"></i>') 
+}  
+});
+  
+  $('.premium-quality-slider').slick({
     infinite: true,
-    infinite: true,
-    dots:true,
+    dots: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay:true,
-    autoplaySpeed:2000
+    autoplay: true,
+    speed: 300,
+    arrows: false,
+    autoplaySpeed: 2000
   });
-   
-  //   Banner Slider JS End
-
-
-  //   JS Start
-$('.premium-quality-slider').slick({
-    infinite: true,
-    dots:true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay:true,
-    arrows:false,
-    autoplaySpeed:2000
-  });
-   
-  //   Banner Slider JS End
-
+  

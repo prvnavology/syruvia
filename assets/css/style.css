@@ -42,6 +42,10 @@ ul li {
     margin: 0;
 }
 
+button {
+    display: inline-block;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -170,12 +174,7 @@ img {
     margin: 0 3px;
 }
 
-/*
-.nav-r1 {
-    width: 100%;
-    text-align: center;
-    margin-top: -60px;
-} */
+
 
 
 /* Header CSS End */
@@ -196,16 +195,38 @@ img {
 /* Offer Text CSS Start */
 
 /* Banner Slider CSS Start */
+.banner-slider-wrapper {
+    position: relative;
+}
+
 .banner-slider .slick-dots {
     position: relative;
-    margin-top: 30px;
-
+    margin-top: 25px;
 }
+
+button#slider-toggle {
+    border: none;
+    background: transparent;
+    position: absolute;
+    left: calc(50% + 90px);
+    z-index: 30;
+    bottom: -30px;
+}
+
+button#slider-toggle::before {
+    border-left: 1px solid #000;
+    content: "";
+    display: block;
+    position: absolute;
+    height: 25px;
+}
+
 
 .banner-slider .slick-dots li.slick-active button:before {
     opacity: 1;
     color: #EA090E;
 }
+
 .banner-slider .slick-dots li button:before {
     font-size: 50px;
     color: #EA090E;
@@ -214,41 +235,35 @@ img {
 
 .banner-slider .slick-next:before {
     content: '>';
+    font-size: 40px;
 }
 
 .banner-slider .slick-prev:before {
     content: '<';
+    font-size: 40px;
 }
 
 .banner-slider .slick-prev,
 .banner-slider .slick-next {
-    bottom: -30px;
+    bottom: -35px;
     top: auto;
+
 }
 
-.banner-slider .slick-next::before {
+.banner-slider .slick-next::before,
+.banner-slider .slick-prev:before {
     font-size: 25px;
     opacity: 1;
     color: red;
 }
-.banner-slider .slick-prev:before {
-     color: red;
-     opacity: 1;
-   }
-.banner-slider .slick-next {
-    right: calc(50% - 80px);
-}
 
 .banner-slider .slick-next {
     right: calc(50% - 80px);
 }
 
-
-
-
-
-
-
+.banner-slider .slick-prev {
+    left: calc(50% - 80px);
+}
 
 section.favorite-brands {
     margin: 130px auto 80px auto;
@@ -281,6 +296,14 @@ section.favorite-brands {
     background: #cd090b;
     color: #fff;
     border: 1px solid #cd090b;
+}
+
+.btn-brown {
+    background:
+        linear-gradient(180deg,
+            rgba(215, 106, 82, 1) 1.9999999552965164%,
+            rgba(220, 145, 91, 1) 100%)
+
 }
 
 .btn-red:hover {
@@ -330,6 +353,9 @@ section.favorite-brands {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0;
+}
+.index1  .syrup-collection-section{
+    background-image: url("../images/syrup-collection1-bg.png");  
 }
 
 .syrup-collection-wrapper h2 {
@@ -413,6 +439,9 @@ section.favorite-brands {
     background-size: contain;
     padding: 100px 0;
     margin: 50px 0 70px 0;
+}
+.index1 .syruvia-history-section{
+    background-image: url("../images/syruvian-history1-bg.png");
 }
 
 .syruvia-history-wrapper h2 {
@@ -508,7 +537,9 @@ section.favorite-brands {
     color: #fff;
     padding: 12px 40px;
     border-radius: 8px;
-
+}
+.index1 .footer-submit-btn{
+    background-color: #b85423;
 }
 
 .footer-submit-btn:hover {
@@ -522,3 +553,11 @@ section.favorite-brands {
 }
 
 /* Footer CSS End */
+
+/* Prodcut Page CSS Start */
+
+
+
+
+
+/* Prodcut Page CSS End */
